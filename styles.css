@@ -1,0 +1,109 @@
+h3 {
+    color: #34495e;
+    margin-top: 25px;
+    font-size: 1.3em;
+}
+/* --- GLOBAL STYLES --- */
+body {
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    background: #746ba2; /* Background ungu */
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* --- HEADER STYLES --- */
+.main-title {
+    color: #00bcd4; /* Aqua, disesuaikan agar lebih profesional */
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    /* Menghapus inline style dari <h1> dan memindahkannya ke CSS */
+}
+
+#subtitle {
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+/* --- SECTION STYLES --- */
+.section {
+    background: #fff;
+    margin: 30px 0;
+    padding: 30px;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.section-heading { /* Mengganti h2 agar spesifik */
+    color: #3498db; /* Biru yang lebih cerah */
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+/* --- KEY POINTS STYLES --- */
+.key-points-box {
+    background: #ecf0f1; /* Latar belakang abu-abu terang */
+    padding: 15px 25px;
+    border-left: 5px solid #2ecc71; /* Garis hijau di kiri */
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.key-points-box ul {
+    list-style-type: none; /* Menghapus bullet default */
+    padding-left: 0;
+}
+
+.key-points-box li {
+    margin-bottom: 5px;
+}
+
+/* --- CODE EXAMPLE STYLES --- */
+.code-example {
+    background: #2c3e50; /* Latar belakang gelap untuk blok kode */
+    color: #ecf0f1;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    position: relative;
+    font-family: 'Consolas', 'Courier New', monospace;
+    overflow-x: auto;
+}
+
+.code-example code {
+    display: block; /* Agar setiap tag berada di baris baru */
+    margin-bottom: 5px;
+}
+
+.language-label {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: #f1c40f; /* Warna kuning */
+    font-weight: bold;
+    font-size: 0.9em;
+}
