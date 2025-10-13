@@ -5,55 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyek Belajar HTML</title>
     <link rel="stylesheet" href="style.css"> 
-    
-    </head>
+</head>
 <body>
     <div class="container">
         <header>
-            <h1 class="main-title">
-                🌐 HTML Learning Project
-            </h1>
+            <h1 class="main-title">🌐 HTML Learning Project</h1>
             <p id="subtitle">Master the Building Blocks of the Web</p>
         </header>
 
-        <section class="section">
-            <h2 class="section-heading">🚀 What is HTML?</h2>
-            <p>
-                HTML (HyperText Markup Language) is the standard markup language for creating web pages.
-                Think of it as the **skeleton or foundation** of every website you visit.
-            </p>
+        <main>
+            <section class="section">
+                <h2 class="section-heading">🚀 Apa itu HTML?</h2>
+                <p>
+                    <strong>HTML (HyperText Markup Language)</strong> adalah bahasa standar yang digunakan untuk membuat halaman web.
+                    Ibaratnya, HTML adalah <em>kerangka dasar</em> dari setiap situs web yang kita kunjungi.
+                </p>
 
-            <div class="key-points-box">
-                <p><strong>Key Points:</strong></p>
-                <ul>
-                    <li>**HyperText:** Text with links to other texts</li>
-                    <li>**Markup:** A way to annotate text to show structure and meaning</li>
-                    <li>**Language:** A set of rules and syntax for creating web content</li>
-                </ul>
-            </div>
-        </section>
+                <div class="key-points-box">
+                    <p><strong>Poin Utama:</strong></p>
+                    <ul>
+                        <li><b>HyperText:</b> Teks yang dapat terhubung ke halaman atau dokumen lain.</li>
+                        <li><b>Markup:</b> Tanda atau anotasi untuk menunjukkan struktur dan makna konten.</li>
+                        <li><b>Language:</b> Sekumpulan aturan (syntax) untuk membuat konten web.</li>
+                    </ul>
+                </div>
+            </section>
 
-        <section class="section">
-            <h2 class="section-heading">🏗 How HTML Works</h2>
-            
-            <p>
-                HTML uses **tags** to define elements. Tags are keywords surrounded by angle brackets like <code>&lt;tagname&gt;</code>. Most tags come in pairs:
-            </p>
+            <section class="section">
+                <h2 class="section-heading">🏗 Cara Kerja HTML</h2>
+                <p>
+                    HTML menggunakan <b>tag</b> untuk mendefinisikan elemen. Tag ditulis di dalam tanda kurung sudut seperti <code>&lt;tagname&gt;</code>. 
+                    Umumnya, setiap elemen HTML memiliki tag pembuka dan penutup.
+                </p>
 
-            <div class="code-example">
-                <span class="language-label">HTML</span>
-                <code>
-                    &lt;tagname&gt;Content goes here&lt;/tagname&gt;
-                </code>
-                <code>
-                    &lt;h1&gt;This is a heading&lt;/h1&gt;
-                </code>
-                <code>
-                    &lt;p&gt;This is a paragraph&lt;/p&gt;
-                </code>
-            </div>
-        </section>
-        
+                <div class="code-example">
+                    <span class="language-label">Contoh HTML:</span>
+                    <pre>
+&lt;h1&gt;Ini adalah judul&lt;/h1&gt;
+&lt;p&gt;Ini adalah paragraf&lt;/p&gt;
+&lt;a href="https://example.com"&gt;Ini adalah tautan&lt;/a&gt;
+                    </pre>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-heading">🎨 Struktur Dasar HTML</h2>
+                <p>Berikut contoh struktur dasar sebuah dokumen HTML:</p>
+                <div class="code-example">
+                    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="id"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Judul Halaman&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Halo Dunia!&lt;/h1&gt;
+    &lt;p&gt;Ini adalah halaman HTML pertamaku.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                    </pre>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-heading">📘 Kesimpulan</h2>
+                <p>
+                    HTML adalah dasar dari pengembangan web. Setelah memahami HTML, kamu dapat melanjutkan belajar
+                    <b>CSS</b> untuk mempercantik tampilan dan <b>JavaScript</b> untuk membuat situs menjadi interaktif.
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2025 Proyek Belajar HTML | Dibuat oleh <b>Agi Abdul Gani</b></p>
+        </footer>
     </div>
 </body>
 </html>
